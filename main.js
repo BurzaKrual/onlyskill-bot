@@ -44,7 +44,7 @@ client.on('message' , message =>{
         
     }
     if (command === 'reactionrole') {
-        client.commands.get('reactionrole').execute(message, args, Discord, client);
+        client.commands.get('reactionrole').run(message, args, Discord, client);
     } 
 })
 
