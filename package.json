@@ -1,0 +1,16 @@
+{
+  "name": "only-skill-bot",
+  "version": "1.0.0",
+  "description": "This is a bot for OnlySkillNetwork discord server",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "BurzaKrual",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "enmap": "^5.8.4",
+    "minecraft-server-util": "^3.4.4"
+  }
+}
