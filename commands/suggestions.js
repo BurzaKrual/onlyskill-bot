@@ -6,8 +6,6 @@ module.exports = {
     description: 'creates a suggestion!',
     execute(message, args,client, Discord){
         const channel = '826548663328702482';
-        if(!channel) return message.channel.send('suggestions channel does not exist!');
-
         let messageArgs = args.join(' ');
         const embed = new MessageEmbed()
         .setColor('FADF2E')
