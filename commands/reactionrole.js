@@ -17,7 +17,7 @@ module.exports = {
                 + `${Test1Emoji} for Test1 role\n`
                 + `${Test2Emoji} for Test2 role`);
  
-        let messageEmbed = await message.channel.send(embed);
+        let messageEmbed = message.channel.send(embed);
         messageEmbed.react(Test1Emoji);
         messageEmbed.react(Test2Emoji);
  
