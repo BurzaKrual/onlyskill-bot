@@ -17,7 +17,7 @@ for(const file of commandFiles){
 
 client.once('ready', () =>{
     console.log('Only Skill Bot is online!')
-    bot.user.setActivity('Prefix is: .', { type: "Having Fun With My Dev" }).catch(console.error)
+    client.user.setActivity('Prefix is: .', { type: "Having Fun With My Dev" }).catch(console.error)
 })
 
 client.on('message' , message =>{
