@@ -42,6 +42,9 @@ client.on('message' , message =>{
         client.commands.get('suggestions').execute(message, args, client, Discord);
         
     }
+    if (command === 'reactionrole') {
+        client.commands.get('reactionrole').execute(message, args, Discord, client);
+    } 
 })
 
 
