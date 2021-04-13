@@ -1,3 +1,4 @@
+const { MessageEmbed } = require('discord.js');
 module.exports = {
     name: 'reactionrole',
     destcription:'Sets up a Reaction Role Message',
@@ -9,7 +10,7 @@ module.exports = {
         const Test1Emoji = '⚫';
         const Test2Emoji = '🔴';
  
-        let embed = new Discord.MessageEmbed()
+        let embed = new MessageEmbed()
             .setColor('#e42643')
             .setTitle('TEST!')
             .setDescription('Test!\n\n'
