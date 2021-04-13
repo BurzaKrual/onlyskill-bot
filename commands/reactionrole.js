@@ -2,7 +2,7 @@ const { MessageEmbed } = require('discord.js');
 module.exports = {
     name: 'reactionrole',
     destcription:'Sets up a Reaction Role Message',
-    async run (bot, message, args){
+    async run (client, message, args){
         const channelID = message.mentions.channels.first();
         if(!channelID) return message.reply("Please specify a valid channel you want the embed to be sent in!\n `Example: .reactionrole #<channel> <Your Description>`")
 
